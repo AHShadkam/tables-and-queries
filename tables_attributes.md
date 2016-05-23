@@ -9,5 +9,5 @@
   + sdf
   
 * ad.svc_rq_ignore
-  +svc_rq_ds: pm check, mpa check, ndcs, dcs, undefined
+  + svc_rq_ds: pm check, mpa check, ndcs, dcs, undefined
   
