@@ -31,3 +31,45 @@
   + insert_ts
   + returned_ap_level
   + api
+  
+* ad.log_ap_summary
+  + so_key
+  + ses_id_no
+  + domain_name
+  + user_id
+  + ap_call_cnt
+  + case_result_position
+  + recorded_case_id : shows the case that is recorded (cited) as solution
+  + used_ap_cmt
+  + used_ap_to_avoid_ind
+  + agent_engagated_ind
+  + symptom
+  + invalid_search_ind
+  + avoid_probability_level
+  + service_timestamp
+  + case_count
+  + ses_sta_ts
+  + atn_cd : {A SOC SP, A SOC IW, A AVD IW, A AVD SP}
+  + avd_fl
+  + avd_7d_stick
+
+* ad.log_ap_summary_snapshot
+  + ses_id_no
+  + session_date
+  + domain_name
+  + site
+  + user_id
+  + ap_level
+  + cib_avd
+  + used_ap_init_avd
+  + used_ap_7d_avd
+  + ap_high
+  + ap_high_init_avd
+  + ap_high_7d_avd
+  + engaged_session
+  + invalid_search
+  + symptom
+  + missed_avoid
+  + case_count
+  + ap_call_count
+  + recorded_case_id
