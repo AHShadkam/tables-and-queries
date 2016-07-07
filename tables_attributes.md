@@ -1,4 +1,5 @@
 * ad.log_avoid_ui
+  + request_id
   + service_timestamp
   + domain_name
   + symptom
