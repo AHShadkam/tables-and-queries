@@ -10,4 +10,23 @@
   
 * ad.svc_rq_ignore
   + svc_rq_ds: pm check, mpa check, ndcs, dcs, undefined
-  
+
+* ad.log_avoid_propensity
+  + session_id
+  + request_id
+  + service_name
+  + service_timestamp
+  + age_num
+  + month_num
+  + symptoms
+  + coverage_code
+  + model_no
+  + age_bucket
+  + brand_name
+  + avoid_probability_num
+  + avoid_probability_level
+  + domain
+  + user_id : you can find the tech spec
+  + insert_ts
+  + returned_ap_level
+  + api
