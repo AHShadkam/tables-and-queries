@@ -37,14 +37,14 @@
   + ses_id_no
   + domain_name
   + user_id
-  + ap_call_cnt
+  + ap_call_cnt : if zero or blank, it means the AP didn't popped up.
   + case_result_position
   + recorded_case_id : shows the case that is recorded (cited) as solution
   + used_ap_cmt
   + used_ap_to_avoid_ind
   + agent_engagated_ind
   + symptom
-  + invalid_search_ind
+  + invalid_search_ind : if the AP don't pop up there is no search term so it is considered as invalid.
   + avoid_probability_level
   + service_timestamp
   + case_count
