@@ -1,6 +1,7 @@
 * ad.log_avoid_ui
   + request_id
   + service_timestamp
+  + cib_sid
   + domain_name
   + symptom
   + model_no
